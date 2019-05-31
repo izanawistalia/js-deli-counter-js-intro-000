@@ -8,7 +8,7 @@ function takeANumber( arr, name){
 function nowServing(arr){
   if(arr.length != 0){
     var person = arr.shift();
-    return var;
+    return person;
   }
   return "There is nobody waiting to be served!";
 }
